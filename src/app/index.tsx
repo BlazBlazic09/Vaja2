@@ -11,14 +11,14 @@ export default function Homescreen() {
       />
 
       <Text style={styles.text}>
-        To je moja prva mobilna aplikacija, ki sem jo nardil z expo. Z njo bom predstavil svoj najljubsi hobi, fitnes.
+        Pozdravljeni v moji fitnes aplikaciji, trenutno se nahajate na domaci strani, in vam bom v tej aplikaciji opisal svoj hobi, ki je fitnes.
       </Text>
     </View>
   );
 }
 const styles = StyleSheet.create({
   container: { flex: 1, padding: 20, alignItems: 'center', backgroundColor: '#000' }, 
-  title: { fontSize: 22, fontWeight: 'bold', marginBottom: 20, color: '#fff' }, 
+  title: { fontSize: 32, fontWeight: 'bold', marginBottom: 20, color: '#fff' }, 
   image: { width: '100%', height: 200, borderRadius: 8, marginBottom: 20 },
-  text: { fontSize: 16, textAlign: 'center', lineHeight: 22, color: '#fff' },
+  text: { fontSize: 16, textAlign: 'left', lineHeight: 22, color: '#fff' },
 });
